@@ -8,8 +8,12 @@ html, body {
 }
 
 body {
-  background-color: #89E9C2;
-  margin: 0px;
+  background-color: #89e9c3;
+
+  background-image: url(pazzule.png);
+  background-size: cover;  
+
+    margin: 0px;
   overflow: hidden;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -24,34 +28,8 @@ body {
   text-align: center;
   opacity: 1;
 }
-.horizon{
-  display: flex;
-  padding: 20px;
 
-}
 
-.btn {
-	display: block;
- font-family: monospace;
-	text-align: center;
-	text-decoration: none;
-	width: 140px;
-	margin: auto;
-  padding: 15px 32px; /* 上下のパッドと左右のパッド */
-	font-weight: bold;
-	border-radius: 20px;
-	border-bottom: 7px solid #0686b2;
-	background: #27acd9;
-	color: #fff;
-  transition: all 0.3s ease;
-}
-.btn:hover {
-	border-bottom: 7px solid #05455a;
-	background: #046586;
-	color: #dad9d9;
-  
-	border-radius: 10px;
-}
 #close {
   transition: opacity 0.4s ease 0.1s, color 0.2s, transform 0.2s;
   opacity: 0;

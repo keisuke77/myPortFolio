@@ -1,0 +1,40 @@
+
+.paper{
+    background-image: url(./paper2.avif);
+    background-size:  cover;  
+    transform: rotate(-2deg); /* ちょっと回転させてカードっぽくしてる */
+    box-shadow: 2px 2px 4px #1f522e; /* ちょっと影つける */
+  padding: 15px;
+  color: rgba(2, 2, 2, 0.7); 
+  text-shadow: 2px 2px 1px #ffffff, 0 0 #000000; /* デボス加工風にする */
+  }
+  
+
+.horizon{
+    display: flex;
+    padding: 20px;
+  
+  }
+  
+  .btn {
+      display: block;
+   font-family: monospace;
+      text-align: center;
+      text-decoration: none;
+      width: 140px;
+      margin: auto;
+    padding: 15px 32px; /* 上下のパッドと左右のパッド */
+      font-weight: bold;
+      border-radius: 20px;
+      border-bottom: 7px solid #0686b2;
+      background: #27acd9;
+      color: #fff;
+    transition: all 0.3s ease;
+  }
+  .btn:hover {
+      border-bottom: 7px solid #05455a;
+      background: #046586;
+      color: #dad9d9;
+    
+      border-radius: 10px;
+  }
