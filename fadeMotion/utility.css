@@ -1,40 +1,38 @@
+.paper {
+  background-image: linear-gradient(to top right, #f5f5f553, #e2e7e96a), url(./paper2.avif);
+  background-size: cover;
+  transform: rotate(-2deg);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  border-radius: 8px;
+  color: #333;
+  text-shadow: 1px 1px 2px #fff;
+}
 
-.paper{
-    background-image: url(./paper2.avif);
-    background-size:  cover;  
-    transform: rotate(-2deg); /* ちょっと回転させてカードっぽくしてる */
-    box-shadow: 2px 2px 4px #1f522e; /* ちょっと影つける */
-  padding: 15px;
-  color: rgba(2, 2, 2, 0.7); 
-  text-shadow: 2px 2px 1px #ffffff, 0 0 #000000; /* デボス加工風にする */
-  }
-  
+.horizon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
 
-.horizon{
-    display: flex;
-    padding: 20px;
-  
-  }
-  
-  .btn {
-      display: block;
-   font-family: monospace;
-      text-align: center;
-      text-decoration: none;
-      width: 140px;
-      margin: auto;
-    padding: 15px 32px; /* 上下のパッドと左右のパッド */
-      font-weight: bold;
-      border-radius: 20px;
-      border-bottom: 7px solid #0686b2;
-      background: #27acd9;
-      color: #fff;
-    transition: all 0.3s ease;
-  }
-  .btn:hover {
-      border-bottom: 7px solid #05455a;
-      background: #046586;
-      color: #dad9d9;
-    
-      border-radius: 10px;
-  }
+.btn {
+  display: inline-block;
+  font-family: monospace;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 36px;
+  margin: 10px;
+  font-weight: bold;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #27acd9, #0686b2);
+  color: #fff;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px rgba(6, 134, 178, 0.2);
+}
+
+.btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  background: linear-gradient(90deg, #046586, #05455a);
+  box-shadow: 0 6px 12px rgba(5, 69, 90, 0.3);
+}

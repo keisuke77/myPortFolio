@@ -1,21 +1,79 @@
+<link rel="stylesheet" href="utility.css">
 
-<link rel="stylesheet" href="utility.css"> 
-<div class="horizon">
+<body>
+    <div class="header">
+        <img src="walk.png" width="70" height="70">
+        <h1>自分の歩み</h1>
+        <img src="walk.png" width="70" height="70">
+    </div>
+
+    <p class="description">
+        小学生の頃は漫画家かゲームプログラミングする人どっちになろうかすごく悩んでいた。<br>
+        中学生の時はマイクラに明け暮れていた。高校生の時はUnityというゲームエンジンに3年間ほど打ち込み、大学に入ってからは<br>
+        一緒に作ってくれる人にも出会えたのでデスクワールドというタイトルを製作している。<br>
+        C#が一番得意。大学に入学後は開発サークルに所属し、ハッカソンや開発などの経験も積んでいます。<br>
+    </p>
+    <div class="content-box">
+        <h2>大学での専攻内容</h2>
+        <p>
+            大学での専攻内容は主に情報科学で、ソフトウェア開発、データベース、ハードウェアなどを学びました。ソフトウェアではチームメンバーと共に制作システムを制定し、課題を探してシステム設計や実装を学びました。ハードウェアではVerilogHDLやArduinoを用いて電子工作を行い、ラジコンや四則演算の電卓などを設計から実装まで経験しました。データベースではSQLを用いたデータ管理を中心に、PHPなどと組み合わせたWebページや掲示板の開発も行いました。
+        </p>
+    </div>
+
     
-<img src="walk.png" width=70px height="70px">
-<h1>自分の歩み  </h1>
-<img src="walk.png" width=70px height="70px">
-</div>
-<p>
-小学生の頃は漫画家かゲームプログラミングする人どっちになろうかすごく悩んでいた。<br>
-中学生の時はマイクラに明け暮れていた
-高校生の時はUnityというゲームエンジンに3年間ほど打ち込み、大学に入ってからは<br>
-    一緒に作ってくれる人にも出会えたのでデスクワールドというタイトルを製作している<br>
-    ゲーム制作に便利なツールなども自主制作しました。<br>
-    プログラミング言語に関しては、<br>
-    C#が一番得意です。
-    大学に入学後は、
-    開発サークルに所属し、<br>
-    ハッカソンや開発などの経験も積んでいます。<br>
+</body>
 
-</p>
+<style>
+    body {
+        font-family: "Helvetica Neue", sans-serif;
+        color: #333;
+     margin: 0;
+        padding: 0;
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+       padding: 20px;
+        border-bottom: 1px solid #ddd;
+    }
+    .header img {
+        transition: transform 0.3s;
+    }
+    .header img:hover {
+        transform: scale(1.1);
+    }
+    .header h1 {
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+        color: #444;
+        font-weight: 600;
+    }
+    .description {
+        font-size: 1.1rem;
+        color: #555;
+        font-weight: 300;
+        max-width: 700px;
+        margin: 30px auto;
+        line-height: 1.8;
+        padding: 0 20px;
+        text-align: justify;
+    }
+    .content-box {
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: 40px auto;
+        padding: 20px;
+    }
+    .content-box h2 {
+        font-size: 1.5rem;
+        color: #444;
+        margin-bottom: 10px;
+    }
+    .content-box p {
+        line-height: 1.6;
+        color: #666;
+    }
+</style>

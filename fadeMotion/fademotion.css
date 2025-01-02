@@ -72,7 +72,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 1em;
+  padding: 0;
 }
 .modal h1 {
   text-transform: uppercase;
