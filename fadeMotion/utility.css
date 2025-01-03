@@ -8,7 +8,10 @@
   color: #333;
   text-shadow: 1px 1px 2px #fff;
 }
-
+/* ブラウザのスクロールバーを消す場合 */
+::-webkit-scrollbar {
+  display: none;
+}
 .horizon {
   display: flex;
   justify-content: center;
